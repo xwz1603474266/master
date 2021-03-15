@@ -1,0 +1,17 @@
+#include "subwidget.h"
+
+#include "widget.h"
+#include "ui_widget.h"
+#include <QApplication>
+#include <QDesktopWidget>
+#include <QPainter>
+#include "filecopy.h"
+#include "QDebug"
+#include <QMessageBox>
+
+SubDialog::SubDialog(QWidget *parent)
+    :QDialog(parent):
+    ui(new Ui::SubWidget)
+{
+
+}
